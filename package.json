@@ -1,0 +1,23 @@
+{
+  "name": "react-component-lib-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/spsjvc/react-component-lib-example",
+  "author": "Dragiša Spasojević",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
+    "rollup": "^1.31.0",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  },
+  "peerDependencies": {
+    "react": "^16.12.0",
+    "styled-components": "^5.0.1"
+  }
+}

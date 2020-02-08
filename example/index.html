@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React Component Lib Example</title>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <!-- React and React DOM -->
+    <script
+      crossorigin
+      src="https://unpkg.com/react@16/umd/react.production.min.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"
+    ></script>
+
+    <!-- Styled Components -->
+    <script
+      crossorigin
+      src="https://unpkg.com/react-is@16/umd/react-is.production.min.js"
+    ></script>
+    <script src="https://unpkg.com/styled-components@5/dist/styled-components.min.js"></script>
+
+    <!-- Component Lib -->
+    <script src="../dist/component-lib.js"></script>
+
+    <script>
+      ReactDOM.render(
+        React.createElement(ComponentLib.HelloWorld),
+        document.getElementById('root')
+      )
+    </script>
+  </body>
+</html>
